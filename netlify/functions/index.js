@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const fs = require("fs");
 
-const folderPath = "./Date-time";
+const folderPath = "../../Date-time";
 
 const PORT = 4002;
 app.get("/", (req, res) => {
